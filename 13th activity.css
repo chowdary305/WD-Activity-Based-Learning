@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ff4500;
+    margin: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+section {
+    padding: 35px 15px;
+}
+
+#home {
+    background: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200") center/cover;
+    padding: 100px 15px;
+}
+
+#home h2 {
+    font-size: 40px;
+    color: white;
+}
+
+img {
+    margin: 15px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+p {
+    margin: 12px;
+}
+
+input, select, button {
+    display: block;
+    margin: 12px auto;
+    padding: 12px;
+    width: 250px;
+    max-width: 90%;
+}
+
+button, #home a {
+    background: #ff4500;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+button:hover, #home a:hover {
+    background: white;
+    color: #ff4500;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    #home h2 {
+        font-size: 28px;
+    }
+}
